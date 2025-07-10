@@ -95,8 +95,13 @@ header .banner-section h1{
   main{
     padding: 0 150px;
     text-align: center;
+    background: linear-gradient(
+        to top,
+        rgb(234, 240, 246),
+        white
+    );
    
-    height: 200vh;
+    height: 500vh;
   }
             
         /* section-1 style */
@@ -129,7 +134,7 @@ header .banner-section h1{
         /* section-1 style */
 
 
-        
+
 
 
         /* section-2 style */
@@ -138,6 +143,9 @@ header .banner-section h1{
                     background-color: rgba(78, 71, 255, 0.1);
                     border-radius: 10px;
                     padding: 50px 150px;
+                }
+                main .section-2:hover{
+                    box-shadow: 5px 8px 40px #30302f;
                 }
 
                 main .section-2 .user-title h3{
@@ -163,4 +171,134 @@ header .banner-section h1{
                     color: rgba(0, 0, 0, 0.5);
                 }
         /* section-2 style */
+
+
+
+        /* section-3 style */
+                main .section-3{
+                    margin-top: 150px;
+                    
+                }
+
+                main .section-3-title h4{
+                    font-size: 42px;
+                    font-weight: bold;
+                    color: #252432;
+                    margin: 20px 0;
+                }
+
+                main .section-3-card{
+                    display: flex;
+                    text-align: left;
+                    gap: 20px;
+                    
+                }
+                main .section-3-card .card{
+                    background-color: white;
+                    border-radius: 10px;
+                    padding: 20px;
+                    margin-top: 40px;
+                }
+                main .section-3-card .card:hover{
+                    box-shadow: 5px 8px 40px #30302f;
+                    transition: 0.2s;
+                }
+
+                main .section-3-card .card-desc p{
+                    margin-top: 15px;
+                }
+                main .section-3-card .card h5{
+                    font-size: 20px;
+                    margin-top: 20px;
+                }
+                
+
+                main .section-3-card .profile{
+
+                    display: flex;
+                    gap: 10px;
+                    margin-top: 20px;
+                }
+                main .section-3-card .profile img{
+                    border-radius: 50%;
+                }
+                main .section-3-card .profile p{
+                    font-size: 15px;
+                    font-weight: bold;
+                    color: #56565b;
+                }
+                main .section-3-card .profile .small-p{
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #75757a;
+                }
+        /* section-3 style */
+
+
+
+        /* section-4 style */
+
+               main .section-4{
+                    margin-top: 150px;
+                    background-color: white;
+                    text-align: center;
+                    padding: 70px;
+               }
+               main .section-4 h3,p,button,img{
+                margin-top: 20px;
+               }
+               main .section-4 h3{
+                font-size: 50px;
+                font-weight: bold;
+                color: #252432;
+               }
+               main .section-4 p{
+                color: rgba(0, 0, 0, 0.5);
+               }
+               main .section-4 img{
+                border-radius: 30px;
+               }
+        /* section-4 style */
 /* main section style */
+
+
+
+/* footer section style */
+
+
+           footer{
+            text-align: center;
+           }
+           .footer{
+            width: 35%;
+            margin: 0 auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+           }
+           .footer h1{
+            font-size: 100px;
+            font-weight: 900;
+            color: #4E47FF;
+           }
+           .footer ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-top: 20px;
+           }
+           .footer ul li{
+            list-style: none;
+           }
+           .footer ul a{
+            text-decoration: none;
+            color: #56565b;
+            cursor: pointer;
+            padding: 5px 10px;
+           }
+           .footer ul a:hover{
+                background-color: rgb(211, 207, 207);
+                border-radius: 10px;
+                
+           }
+/* footer section style */
