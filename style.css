@@ -1,0 +1,166 @@
+/* google fonts */
+     /* raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+     /* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* google fonts */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+/* common style section */
+
+            /* primary button */
+                    .primary-btn{
+                    padding: 12px 36px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: white;
+                    background-color: #4E47FF;
+                    border: none;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+                    .primary-btn:hover{
+                        background-color: rgb(197, 226, 201);
+                        color: rgb(0, 0, 0);
+                        box-shadow: 5px 5px 1px rgb(0, 0, 0);
+                        border: none;
+                        cursor: pointer;
+                    }
+                    .primary-btn:active{
+                        background-color: rgb(100, 235, 98);
+                        box-shadow: none;
+                        transform: translateY(4px);
+                    }
+            /* primary button */
+
+/* common style section */
+
+
+
+/* header section style */
+header{
+    width: 100%;
+    height: 700px;
+    background-image: url(Assets/Hero-bg.png);
+    text-align: center;
+}
+header nav{
+    width: 80%;
+    height: 150px;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h3{
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+
+header .banner-section{
+    width: 60%;
+    margin: 0 auto ;
+    margin-top: 150px;
+    
+}
+
+header .banner-section h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin: 20px 0;
+}
+
+
+
+/* header section style */
+
+
+
+
+
+/* main section style */
+  main{
+    padding: 0 150px;
+    text-align: center;
+   
+    height: 200vh;
+  }
+            
+        /* section-1 style */
+                 main .section-1{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 150px;
+                 }
+
+                 main .section-1-desc{
+                    text-align: left;
+                    width: 40%;
+                 }
+                 main .section-1-desc h4{
+                    font-size: 42px;
+                    font-weight: bold;
+                    color: #252432;
+                 }
+                 main .section-1-desc p{
+                    font-size: 24px;
+                    font-weight: 400;
+                    margin: 20px 0;
+                    color: rgba(37, 36, 50, 0.5);
+                 }
+                 main .section-1-img img{
+                    border-radius: 30px;
+                 }
+                 
+        /* section-1 style */
+
+
+        
+
+
+        /* section-2 style */
+                main .section-2{
+                    margin-top: 150px;
+                    background-color: rgba(78, 71, 255, 0.1);
+                    border-radius: 10px;
+                    padding: 50px 150px;
+                }
+
+                main .section-2 .user-title h3{
+                    font-size: 38px;
+                    font-weight: bold;
+                }
+
+                main .section-2 .user-details{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 40px 0;
+                    
+                }
+                main .section-2 .user-details h1{
+                    font-family: "Inter", sans-serif;
+                    font-size: 80px;
+                    font-weight: bold;
+                    color: #4E47FF;
+                }
+                main .section-2 .user-details p{
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: rgba(0, 0, 0, 0.5);
+                }
+        /* section-2 style */
+/* main section style */
