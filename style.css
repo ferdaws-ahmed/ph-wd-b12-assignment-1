@@ -101,7 +101,7 @@ header .banner-section h1{
         white
     );
    
-    height: 500vh;
+    height: 420vh;
   }
             
         /* section-1 style */
@@ -217,20 +217,27 @@ header .banner-section h1{
 
                     display: flex;
                     gap: 10px;
-                    margin-top: 20px;
+                    
+                    align-items: center;
                 }
                 main .section-3-card .profile img{
                     border-radius: 50%;
                 }
                 main .section-3-card .profile p{
+                   
                     font-size: 15px;
                     font-weight: bold;
                     color: #56565b;
                 }
+                main .section-3-card .profile .profile-desc{
+                    margin-top: 3px;
+                }
+                
                 main .section-3-card .profile .small-p{
                     font-size: 15px;
                     font-weight: 400;
                     color: #75757a;
+                    margin: -0.8px;
                 }
         /* section-3 style */
 
@@ -259,6 +266,54 @@ header .banner-section h1{
                 border-radius: 30px;
                }
         /* section-4 style */
+
+        /* section-5 style */
+               main .section-5{
+                margin-top:  150px ;
+                margin-bottom: 150px;
+                display: flex;
+                gap: 100px;
+                align-items: center;
+               }
+
+               main .section-5 h1{
+                font-size: 97px;
+                font-weight: bold;
+                color: #000000;
+                
+               }
+
+               main .section-5 form{
+                 
+               }
+
+               main .section-5 form  label{
+                display: block;
+                text-align: left;
+                font-weight: bold;
+                margin-top: 15px;
+               }
+               main .section-5 form input[type="text"], input[type="email"]{
+                width: 500px;
+                height: 70px;
+                border: none;
+                border-radius: 10px;
+                padding-left: 20px;
+                margin-top: 10px;
+               } 
+               main .section-5 form textarea{
+                border: none;
+                border-radius: 10px;
+                margin-top: 10px;
+                padding-left: 20px;
+                padding-top: 20px;
+                width: 500px;
+               }
+               main .section-5 form .input-btn{
+                margin-top: 20px;
+                
+               }
+        /* section-5 style */
 /* main section style */
 
 
